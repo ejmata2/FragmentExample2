@@ -1,4 +1,4 @@
-package com.example.android.fragmentexample1;
+package com.example.android.fragmentexample2;
 
 import android.os.Bundle;
 
@@ -93,4 +93,9 @@ public class SimpleFragment extends Fragment {
         // Return the View for the fragment's UI.
         return rootView;
     }
+
+    public static SimpleFragment newInstance() {
+        return new SimpleFragment();
+    }
+
 }
